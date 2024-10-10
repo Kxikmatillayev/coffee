@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    padding: '200px',
+                },
+                extend: {
+                    backgroundImage: {
+                        'hero-pattern': "url('https://preview.colorlib.com/theme/coffee/img/header-bg.jpg.webp')",
+                        'bg-img': "url('https://preview.colorlib.com/theme/coffee/img/footer-bg.jpg.webp')"
+                    },
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <header
+        class="container h-screen bg-[url(https://preview.colorlib.com/theme/coffee/img/header-bg.jpg.webp)] bg-no-repeat bg-cover">
+        <div class="text-white">
+            <div class="flex justify-between pt-6 items-center">
+                <img src="https://preview.colorlib.com/theme/coffee/img/logo.png" alt="">
+                <div class="flex flex-col text-sm">
+                    <div class="flex gap-10">
+                        <span>Mon-Fri: 8am to 2pm</span>
+                        <span> Sat-Sun: 11am to 4pm</span>
+                        <a href="tel:(012) 6985 236 7512">(012) 6985 236 7512</a>
+                    </div>
+                    <ul class="flex gap-10 justify-end">
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>COFFEE</li>
+                        <li>REVIEW</li>
+                        <li>BLOG</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="text-white pt-12 pl-2 w-[600px]">
+            <span class="font-bold text-sm">NOW YOU CAN FEEL THE ENERGY</span>
+            <h1 class="text-[65px] font-[700]">Start your day with
+                a black Coffee</h1>
+            <button class="mt-5 bg-white text-black py-[7px] px-9 rounded-full">BUY NOW</button>
+        </section>
+    </header>
+    <main>
+        <section class="flex gap-[100px] justify-center my-[50px] items-center">
+            <iframe class="rounded-[10px]" width="600" height="350" src="https://www.youtube.com/embed/kzdFkaHtqzs"
+                title="Живой кофе - мягкий джаз и улучшить концентрацию с помощью воодушевляющих рабочие джазовые мелодии"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="w-[500px]">
+                <span class="text-[#b68834]">LIVE COFFEE MAKING PROCESS.</span>
+                <div class="w-[300px] mb-5">
+                    <h1 class="text-[30px] font-bold">We Telecast our
+                        Coffee Making Live</h1>
+                </div>
+                <span class="">We are here to listen from you deliver exellence</span>
+                <p class="pt-2 opacity-90 pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    temp or incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim.</p>
+                <img src="https://preview.colorlib.com/theme/coffee/img/signature.png" alt="">
+            </div>
+        </section>
+        <section class="bg-gray-100 flex flex-col justify-center py-10">
+            <div class="text-center pt-14 pb-10">
+                <h1 class="text-[35px] font-semibold">What kind of Coffee we serve for you</h1>
+                <span class="opacity-80">Who are in extremely love with eco friendly system.</span>
+            </div>
+            <div class="flex justify-center gap-[30px] my-5">
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Cappuccino</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Americano</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Espresso</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+            </div>
+            <div class="flex justify-center gap-[30px] my-5">
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Macchiato</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Mocha</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Coffee Latte</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+            </div>
+            <div class="flex justify-center gap-[30px] my-5">
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Piccolo Latte</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Ristretto</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+                <div class="w-[350px] bg-white p-6 rounded-[10px] shadow-lg shadow-[#b68834]-500/100">
+                    <div class="flex justify-between px-[10px] pb-4">
+                        <h2>Affogato</h2>
+                        <span class="text-[#b68834]">$49</span>
+                    </div>
+                    <p class="px-[10px]">Usage of the Internet is becoming more common due to rapid advance.</p>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col justify-center">
+            <div class="text-center pt-20 pb-14">
+                <h1 class="text-[35px] font-semibold">What kind of Coffee we serve for you</h1>
+                <span class="opacity-80">Who are in extremely love with eco friendly system.</span>
+            </div>
+            <div class="flex flex-row gap-[30px] justify-center mb-20">
+                <div class="flex flex-col">
+                    <div class="mb-[30px]">
+                        <img src="https://preview.colorlib.com/theme/coffee/img/g1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://preview.colorlib.com/theme/coffee/img/g2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="mb-[30px]">
+                        <img src="https://preview.colorlib.com/theme/coffee/img/g3.jpg" alt="">
+                    </div>
+                    <div class="flex flex-row gap-[30px]">
+                        <img src="https://preview.colorlib.com/theme/coffee/img/g4.jpg" alt="">
+                        <img src="https://preview.colorlib.com/theme/coffee/img/g5.jpg " alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#b68834] text-white">
+            <div class="text-center pt-20 pb-14 text-white">
+                <h1 class="text-[35px] font-semibold">What kind of Coffee we serve for you</h1>
+                <span class="opacity-80">Who are in extremely love with eco friendly system.</span>
+            </div>
+            <div class="flex flex-row gap-[50px] justify-center py-[50px]">
+                <div class="w-[550px]">
+                    <img class="pb-4" src="https://preview.colorlib.com/theme/coffee/img/r1.png" alt="">
+                    <span class="text-[20px]">lorem ipusm</span>
+                    <p class="pt-4">
+                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
+                        scanner, speaker. Here you can find the best computer accessory for your laptop, monitor,
+                        printer, scanner, speaker.</p>
+                </div>
+                <div class="w-[550px]">
+                    <img class="pb-4" src="https://preview.colorlib.com/theme/coffee/img/r2.png" alt="">
+                    <span class="text-[20px]">lorem ipusm</span>
+                    <p class="pt-4">
+                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
+                        scanner, speaker. Here you can find the best computer accessory for your laptop, monitor,
+                        printer, scanner, speaker.</p>
+                </div>
+            </div>
+            <div class="flex flex-row justify-around text-white py-[100px] px-[80px]">
+                <div class="flex flex-col">
+                    <h1 class="text-[60px] font-[100]">2536</h1>
+                    <span class="text-sm">Happy client</span>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="text-[60px] font-[100]">7562</h1>
+                    <span class="text-sm">Total projects</span>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="text-[60px] font-[100]">2013</h1>
+                    <span class="text-sm">Cups coffee</span>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="text-[60px] font-[100]">10536</h1>
+                    <span class="text-sm">Total submetted</span>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col justify-center">
+            <div class="text-center pt-20 pb-16">
+                <h1 class="text-[35px] font-semibold">What kind of Coffee we serve for you</h1>
+                <span class="opacity-80">Who are in extremely love with eco friendly system.</span>
+            </div>
+            <div class="flex gap-[50px] justify-center">
+                <div class="flex flex-col w-[35%]">
+                    <img class="w-[100%]" src="https://preview.colorlib.com/theme/coffee/img/b1.jpg" alt="">
+                    <div class="flex flex-col">
+                        <div class="flex flex-row gap-5 my-3">
+                            <button class="px-5 py-1 border rounded-[20px]">Travel</button>
+                            <button class="px-5 py-1 border rounded-[20px]">Life Style</button>
+                        </div>
+                        <h1 class="text-[25px] py-4">Portable latest Fashion for young women</h1>
+                        <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore.</p>
+                        <span>31st January, 2018</span>
+                    </div>
+                </div>
+                <div class="flex flex-col w-[35%]">
+                    <img class="w-[100%]" src="https://preview.colorlib.com/theme/coffee/img/b2.jpg" alt="">
+                    <div class="flex flex-col">
+                        <div class="flex flex-row gap-5 my-3">
+                            <button class="px-5 py-1 border rounded-[20px]">Travel</button>
+                            <button class="px-5 py-1 border rounded-[20px]">Life Style</button>
+                        </div>
+                        <h1 class="text-[25px] py-4">Portable latest Fashion for young women</h1>
+                        <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore.</p>
+                        <span>31st January, 2018</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer
+        class="container h-[450px] bg-[url(https://preview.colorlib.com/theme/coffee/img/footer-bg.jpg.webp)] bg-no-repeat bg-cover">
+        <section class="flex flex-row justify-center gap-[50px] pt-[200px] text-white">
+            <div class="flex flex-col w-[550px]">
+                <h1 class="text-[18px] font-[700]">About Us</h1>
+                <p class="text-sm py-[20px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    dolore magna aliqua.</p>
+                <p class="text-sm pb-4">Copyright ©2024 All rights reserved | This template is made with</p>
+                <span class="text-[#b68834]"><i class="fa-regular fa-heart"></i>by Colorlib</span>
+            </div>
+            <div class="flex flex-col w-[400px]">
+                <h1 class="text-[18px] font-[700]">Newsletter</h1>
+                <span class="py-4">Stay update with our latest</span>
+                <div class="flex">
+                    <input class="text-black py-[10px] px-[10px] w-[100%]" type="text" placeholder="Email">
+                    <button class="p-3 bg-[#b68834]"><i class="fa-solid fa-right-long"></i></button>
+                </div>
+            </div>
+            <div class="flex flex-col w-[300px]">
+                <h1 class="text-[18px] font-[700]">Follow Us</h1>
+                <span class="py-2">Let us be social</span>    
+                    <ul class="flex flex-row gap-10">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-solid fa-basketball"></i></li>
+                        <li>Be</li>
+                    </ul>
+                </div>            
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
